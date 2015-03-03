@@ -1,0 +1,26 @@
+body {
+    font-size:20px;
+    @include body-font;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+h1 {
+    @include headline-font;
+    font-size: 60px;
+
+}
+
+h2, h3, h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+b, strong {
+    @include bold-font;
+}
+
+i, em {
+    @include italic-font;
+}
